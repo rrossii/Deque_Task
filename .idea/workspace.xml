@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="175ea7e9-533e-44ed-a698-2f3e11f43c5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codefinity/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codefinity/Task/BrowserHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/codefinity/Task/BrowserHistoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BrowserHistoryImplTest.java" afterDir="false" />
+    <list default="true" id="175ea7e9-533e-44ed-a698-2f3e11f43c5d" name="Changes" comment="Added Task and Unit Tests">
+      <change beforePath="$PROJECT_DIR$/src/main/java/codefinity/Task/BrowserHistoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codefinity/Task/BrowserHistoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BrowserHistoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BrowserHistoryImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -78,8 +74,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701088058184</updated>
-      <workItem from="1701088059324" duration="1664000" />
+      <workItem from="1701088059324" duration="2463000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Task and Unit Tests">
+      <created>1701095073504</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701095073504</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added Task and Unit Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Task and Unit Tests" />
   </component>
 </project>

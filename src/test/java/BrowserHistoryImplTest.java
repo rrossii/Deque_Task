@@ -2,7 +2,8 @@ import codefinity.Task.BrowserHistory;
 import codefinity.Task.BrowserHistoryImpl;
 import org.junit.*;
 
-import java.util.Stack;
+import java.util.Deque;
+import java.util.LinkedList;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,8 +12,8 @@ public class BrowserHistoryImplTest {
 
     @Before
     public void setUp() {
-        Stack<String> backStack = new Stack<>();
-        Stack<String> forwardStack = new Stack<>();
+        Deque<String> backStack = new LinkedList<>();
+        Deque<String> forwardStack = new LinkedList<>();
         String initialUrl = "https://codefinity.com/profile/my-home";
         browserHistory = new BrowserHistoryImpl(backStack, forwardStack, initialUrl);
     }
