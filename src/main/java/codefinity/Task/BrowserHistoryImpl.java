@@ -1,2 +1,4 @@
-package codefinity.Task;public class BrowserHistoryImpl {
+package codefinity.Task;
+
+public class BrowserHistoryImpl {
 }
